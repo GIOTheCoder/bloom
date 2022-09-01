@@ -1,0 +1,145 @@
+:root {
+    --font: 'Butterfly Kids', cursive;
+    --sec-font: 'Roboto', sans-serif;
+}
+
+/* 
+Utility Classes
+*/
+
+.prim-font {
+    font-family: var(--font);
+}
+
+
+/* 
+Header
+*/
+
+.header {
+    background-color: rgb(18, 20, 21);
+    
+}
+
+
+.header-icons {
+    margin-top: 12px;
+    
+}
+
+.header-icons a {
+    color: white;
+}
+
+/* 
+Main
+*/
+
+.inner {
+    width: 80%;
+    
+    margin: 0 auto;
+}
+
+.hero-section{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(231,113,139,1) 100%);
+    color: white;
+}
+
+.hero-section .inner, .content-section .inner, .bottom-section .inner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.main-text {
+    font-size: 8pt;
+}
+
+
+@media (max-width: 767.98px) { 
+    .laptop {
+        padding-top: 20px;
+    }
+}
+
+
+.content-section {
+    background-color: rgb(238, 238, 238);
+
+}
+
+
+
+
+.download-content{
+    font-size: 12px;
+}
+
+
+.box {
+    background-color: black;
+    border: solid gray 6px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 115px;
+    line-height: 105px;
+    box-shadow: 0px 15px 18px gray;
+}
+
+.box-2, .box-4 {
+    
+    margin-bottom: 30px;
+}
+
+.bottom-section {
+    width: 100%;
+    
+}
+
+.bi-search {
+    color: white;
+}
+
+.clients p {
+
+    font-size: 10px;
+
+}
+
+span {
+    font-weight: bold;
+}
+
+/* 
+Footer
+*/
+
+footer {
+    background-color: rgb(18, 20, 21);
+    color: white;
+    
+}
+
+.bottom-footer .inner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bottom-footer p {
+    font-size: 10px;
+    
+}
+
+.bottom-footer a {
+    color: white;
+}
